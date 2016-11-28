@@ -243,3 +243,31 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+      #back-to-top {
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        z-index: 9999;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background: #1e6bb8;
+        color: #FFF;
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: opacity 0.2s ease-out;
+        opacity: 0;
+        font-weight: bold;
+    }
+    #back-to-top:hover {
+        background: #159957;
+    }
+    #back-to-top.show {
+        opacity: 1;
+    }
+
+
